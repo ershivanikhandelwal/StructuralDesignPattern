@@ -1,8 +1,8 @@
 public class RazorPayAdapter implements PaymentProvider{
     private RazorPayAPI rp= new RazorPayAPI();
     @Override
-    public void CreatePayment(long id, String name, String email, double amount) {
-        rp.Pay(id,name,email,amount);
+    public void CreatePayment(PaymentRequest request) {
+        rp.Pay(request.getId(),request.getName(),request.getEmail(),request.getAmount());
     }
 
     @Override

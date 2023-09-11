@@ -3,7 +3,12 @@
 public class Main {
     public static void main(String[] args) {
         PaymentProvider provider= new RazorPayAdapter();
-        provider.CreatePayment(1,"HDFC","Test@gmail.com",1000);
+        PaymentRequest pr=PaymentRequest.builder().id(1).name("HDFC").email("Test@Gmail.com").amount(1000).build();
+        provider.CreatePayment(pr);
         provider.getPaymentStatus(1);
+
+        PaymentProvider payuProvide= new PayUAdapter();
+        payuProvide.CreatePayment(pr);
+        payuProvide.getPaymentStatus(1);
     }
 }

@@ -1,4 +1,4 @@
 public interface PaymentProvider {
-    public void CreatePayment(long id, String name, String email, double amount);
+    public void CreatePayment(PaymentRequest request);
     public PaymentStatus getPaymentStatus(long id);
 }

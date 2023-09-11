@@ -1,8 +1,8 @@
 public class PayUAdapter implements PaymentProvider{
     private PayUAPI pu= new PayUAPI();
     @Override
-    public void CreatePayment(long id, String name, String email, double amount) {
-        pu.MakeAPayment(id,amount);
+    public void CreatePayment(PaymentRequest request) {
+        pu.MakeAPayment(request.getId(),request.getAmount());
     }
 
     @Override
