@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" filepath="$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StructuralDesignPattern.iml" filepath="$PROJECT_DIR$/StructuralDesignPattern.iml" />
+    </modules>
+  </component>
+</project>
