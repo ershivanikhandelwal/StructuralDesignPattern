@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" filepath="$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlyweightDesignPattern1/FlyweightDesignPattern1.iml" filepath="$PROJECT_DIR$/FlyweightDesignPattern1/FlyweightDesignPattern1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralDesignPattern.iml" filepath="$PROJECT_DIR$/StructuralDesignPattern.iml" />
     </modules>
   </component>
