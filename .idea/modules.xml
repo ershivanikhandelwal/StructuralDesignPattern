@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" filepath="$PROJECT_DIR$/AdatperDsignPattern/AdatperDsignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorDesignPattern/DecoratorDesignPattern.iml" filepath="$PROJECT_DIR$/DecoratorDesignPattern/DecoratorDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FacadeDesignPattern/FacadeDesignPattern.iml" filepath="$PROJECT_DIR$/FacadeDesignPattern/FacadeDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlyweightDesignPattern1/FlyweightDesignPattern1.iml" filepath="$PROJECT_DIR$/FlyweightDesignPattern1/FlyweightDesignPattern1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralDesignPattern.iml" filepath="$PROJECT_DIR$/StructuralDesignPattern.iml" />
     </modules>
